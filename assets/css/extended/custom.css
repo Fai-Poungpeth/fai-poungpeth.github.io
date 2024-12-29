@@ -1,0 +1,260 @@
+/* Variables */
+:root {
+  --main-width: 1000px;
+  --primary-color: #6d6875;
+  --accent-color: #b5838d;
+  --hover-color: #6d6875;
+  --bg-color: #f7f4f3;
+  --side-bg: #e8e1e0;
+  --header-bg: #e8e1e0;
+  --text-color: #4a4a4a;
+  --transition: all 0.3s ease-in-out;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-hover: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Improved Typography */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  background-color: var(--bg-color) !important;
+  color: var(--text-color);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Enhanced Container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 30px;
+}
+
+
+.profile-img {
+  width: 215px;
+  height: 215px;
+  object-fit: cover;
+  border-radius: 50% !important;
+  object-position: top;
+  box-shadow: var(--shadow);
+  border: 4px solid white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Social Icons Styles */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 30px;
+}
+
+.social-icons a {
+  font-size: 30px;
+  box-shadow: none;
+}
+
+.social-icons a:hover {
+  color: var(--accent-color);
+  transform: translateY(-3px) scale(1.1);
+  border-bottom: none !important;
+}
+/* Refined Contact Heading */
+.contact-heading {
+  color: var(--primary-color);
+  font-size: 22px;
+  margin-top: 25px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Enhanced Side Column */
+.side-column {
+  width: 30%;
+  flex-shrink: 0;
+  padding: 30px;
+  background-color: var(--side-bg);
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.side-column a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 500;
+  transition: var(--transition);
+  display: block;
+  padding: 8px 0;
+}
+
+.side-column a:hover {
+  color: var(--accent-color);
+  transform: translateX(5px);
+}
+
+/* Improved Main Content */
+.main-content {
+  width: 70%;
+  flex-shrink: 0;
+  padding: 30px;
+  line-height: 1.8;
+  color: var(--text-color);
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+}
+
+.main-content h1 {
+  font-size: 32px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  border-bottom: 3px solid var(--accent-color);
+  padding-bottom: 10px;
+  letter-spacing: -0.5px;
+}
+
+.main-content p, .about-content p, .achievement-content p {
+  font-size: 16px;
+  margin: 15px 0;
+  line-height: 1.8;
+  color: var(--primary-color);
+}
+
+.main-content a {
+  text-decoration: none;
+  color: var(--accent-color);
+  border-bottom: 1px solid transparent;
+  transition: var(--transition);
+  font-weight: 600;
+}
+
+.main-content a:hover {
+  color: var(--hover-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+li {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--primary-color);
+  margin-left: 30px;
+  padding-left: 10px
+}
+
+/* Enhanced About Content */
+.about-content, .achievement-content{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-y: auto;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  padding: 20px;
+  margin-top: 25px;
+
+}
+
+.about-content h1, h1{
+  font-size: 28px;
+  color: var(--primary-color);
+  margin-top: 0;
+  margin-bottom: 15px;
+  letter-spacing: -0.5px;
+}
+
+.about-content a, .achievement-content a {
+  color: var(--accent-color);
+  transition: var(--transition);
+  font-weight: 600;
+}
+
+.about-content a:hover, .achievement-content a:hover {
+  color: var(--hover-color);
+  border-bottom-color: var(--hover-color);
+}
+
+.about-content h2, .achievement-content h2 {
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  letter-spacing: -0.5px;
+  border-bottom: 3px solid var(--accent-color);
+
+}
+
+.achievement-content .date {
+  font-size: 15px;
+}
+
+/* Refined Header */
+.header {
+  padding: 25px;
+  background-color: var(--header-bg);
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.nav span {
+  color: var(--text-color);
+  transition: var(--transition);
+}
+
+.nav span:hover {
+  color: var(--hover-color);
+}
+
+/* For extra specificity if needed */
+.header .nav span,
+.header .nav a {
+  color: var(--text-color);
+  transition: var(--transition);
+}
+
+.header .nav span:hover,
+.header .nav a:hover {
+  color: var(--accent-color);
+}
+/* Enhanced Responsive Design */
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      padding: 15px;
+      gap: 30px;
+  }
+
+  .side-column,
+  .main-content {
+      width: 100%;
+      padding: 20px;
+  }
+
+  .profile-img {
+      width: 150px;
+      height: 150px;
+      margin-top: 15px;
+  }
+
+  .main-content h1 {
+      font-size: 26px;
+  }
+}
+
+/* Added smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

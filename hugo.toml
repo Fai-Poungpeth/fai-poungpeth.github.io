@@ -1,0 +1,39 @@
+baseURL = "https://fai-poungpeth.github.io/"
+languageCode = 'en-us'
+title = 'Nalin (Fai) Poungpeth'
+theme = "PaperMod"
+
+[params]
+theme = "light"
+disableThemeToggle = true
+
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Research"
+url = "/research/"
+weight = 2
+
+[[menu.main]]
+name = "Achievements"
+url = "/achievements/"
+weight = 3
+
+[[menu.main]]
+name = "Resume"
+url = "https://drive.google.com/file/d/1Fm-TViHx0I1e8Xn3OA9dGw6kZc0dOQyW/view?usp=sharing"
+weight = 4
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allow inline HTML
+
+    [markup.goldmark.parser]
+      autoHeadingID = true  # Optional, for adding IDs to headings
