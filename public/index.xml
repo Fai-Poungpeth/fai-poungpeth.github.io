@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Nalin (Fai) Poungpeth</title>
-    <link>http://localhost:1313/</link>
+    <link>https://fai-poungpeth.github.io/</link>
     <description>Recent content on Nalin (Fai) Poungpeth</description>
     <generator>Hugo -- 0.140.1</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fai-poungpeth.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/achievements/</link>
+      <link>https://fai-poungpeth.github.io/achievements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/achievements/</guid>
+      <guid>https://fai-poungpeth.github.io/achievements/</guid>
       <description>&lt;h1&gt;Achievements &amp; Updates&lt;/h1&gt;
 &lt;div class=&#34;achievement-content&#34;&gt;
     &lt;h2&gt;Launched BWF Badminton World Rankings Analysis Website&lt;/h2&gt;
@@ -20,9 +20,9 @@
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/research/</link>
+      <link>https://fai-poungpeth.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/</guid>
+      <guid>https://fai-poungpeth.github.io/research/</guid>
       <description>&lt;h1&gt;Research Experiences&lt;/h1&gt;
 &lt;div class = &#34;about-content&#34;&gt;
     &lt;h2&gt;Human-AI Collaboration Lab&lt;/h2&gt;
