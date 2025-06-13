@@ -1,34 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nalin (Fai) Poungpeth</title>
-    <link>https://fai-poungpeth.github.io/</link>
-    <description>Recent content on Nalin (Fai) Poungpeth</description>
-    <generator>Hugo -- 0.140.1</generator>
+    <title>Home on Nalin (Fai) Poungpeth</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Nalin (Fai) Poungpeth</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://fai-poungpeth.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://fai-poungpeth.github.io/achievements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fai-poungpeth.github.io/achievements/</guid>
-      <description>&lt;h1&gt;Achievements &amp; Updates&lt;/h1&gt;
-&lt;div class=&#34;achievement-content&#34;&gt;
-    &lt;h2&gt;Launched BWF Badminton World Rankings Analysis Website&lt;/h2&gt;
-    &lt;p class = &#34;date&#34;&gt;June 10th, 2024&lt;/p&gt;
-    &lt;p&gt; I developed a &lt;a href=&#34;https://k4x6kv-fai-poungpeth.shinyapps.io/final-project/&#34;&gt;website&lt;/a&gt; which provides users with the ability to custom analyze badminton world ranking data. It was a personal project for me to explore data visualization techniques using R. The website contains three core features: a map for users to see the distribution of the top 100 players from 2013-2023, a line chart for users to compare the rankings of any two top players from 2022-2023, and a stacked bar plot for users to see the distribution of top 50 players across disciplines for a specified country.&lt;/p&gt;</description>
+      <title>Achievements &amp; Updates</title>
+      <link>http://localhost:1313/achievements/</link>
+      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/achievements/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/css/extended/custom.css&#34;&gt;&#xA;&lt;h1&gt;Achievements &amp; Updates&lt;/h1&gt;&#xA;&lt;div class=&#34;main-content&#34;&gt;&#xA;    &lt;div class=&#34;achievement-content&#34;&gt;&#xA;        &lt;h2&gt;Robert J. Glushko Prize for Undergraduate Excellence in Cognitive Science Recipient&lt;/h2&gt;&#xA;        &lt;div class=&#34;achievement-text-and-image&#34;&gt;&#xA;            &lt;div class=&#34;achievement-text-content&#34;&gt;&#xA;                &lt;p class=&#34;date&#34;&gt;May 20th, 2025&lt;/p&gt;&#xA;                &lt;p&gt;The &lt;a href = &#34;https://cogsci.northwestern.edu/undergraduate/undergraduate-award.html&#34;&gt;Robert J. Glushko Prize for Undergraduate Excellence in Cognitive Science Recipient&lt;/a&gt; is awarded to one undergraduate student each year for demonstrating &#34;outstanding achievement in coursework across the Cognitive Science curriculum, independent, original research that contributes to Cognitive Science, significant contributions to faculty-directed Cognitive Science research as a research assistant, and exceptional leadership of extracurricular opportunities for Cognitive Science undergraduates at Northwestern&#34;. This year, I was recognized as the winner of this award at the Northwestern University Cognitive Science Festival 2025.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://fai-poungpeth.github.io/research/</link>
+      <link>http://localhost:1313/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fai-poungpeth.github.io/research/</guid>
-      <description>&lt;h1&gt;Research Experiences&lt;/h1&gt;
-&lt;div class = &#34;about-content&#34;&gt;
-    &lt;h2&gt;Human-AI Collaboration Lab&lt;/h2&gt;
-    &lt;p&gt;
-        I am currently working at the &lt;a href=&#34;https://human-ai-collaboration-lab.kellogg.northwestern.edu/&#34;&gt;Human-AI Collaboration Lab&lt;/a&gt; with &lt;a href=&#34;https://mattgroh.com/&#34;&gt;Dr. Matt Groh&lt;/a&gt; and &lt;a href=&#34;https://aakritikumar.com/&#34;&gt;Aakriti Kumar&lt;/a&gt; to research how large language model role playing games (LLM RPGs) can help people improve their empathic communication. The motivation for this project comes from a paper published by &lt;a href=&#34;https://www.pnas.org/doi/10.1073/pnas.2319112121&#34;&gt;Yin et al.&lt;/a&gt;, which suggests that LLMs are more effective than humans at making people heard, but people aren’t comfortable sharing their troubles with LLMS due to lack of authenticity. We hope our study will help people better respond to their loved ones’ troubles, and that there will be increased access to effective to empathic communications coaching online.  We are currently collaborating with &lt;a href=&#34;https://communication.northwestern.edu/faculty/bruce-lambert.html&#34;&gt;Dr. Bruce Lambert&lt;/a&gt; and &lt;a href=&#34;https://cs.stanford.edu/~diyiy/&#34;&gt;Dr. Diyi Yang&lt;/a&gt; to develop a reliable framework for evaluating the quality of empathic communication, and to design digital and in-person experiments to measure the effectiveness of different forms of feedback on empathy over time. 
-    &lt;/p&gt;</description>
+      <guid>http://localhost:1313/research/</guid>
+      <description>&lt;h1&gt;Research Experiences&lt;/h1&gt;&#xA;&lt;div class = &#34;main-content&#34;&gt;&#xA;    &lt;div class = &#34;research-content&#34;&gt;&#xA;        &lt;h2&gt;Human-AI Collaboration Lab&lt;/h2&gt;&#xA;        &lt;p&gt;&#xA;            I am currently working at the &lt;a href=&#34;https://human-ai-collaboration-lab.kellogg.northwestern.edu/&#34;&gt;Human-AI Collaboration Lab&lt;/a&gt; with &lt;a href=&#34;https://mattgroh.com/&#34;&gt;Dr. Matt Groh&lt;/a&gt; and &lt;a href=&#34;https://aakritikumar.com/&#34;&gt;Dr. Aakriti Kumar&lt;/a&gt; to research how large language model role playing games (LLM RPGs) can help people improve their empathic communication. The motivation for this project comes from a paper published by &lt;a href=&#34;https://www.pnas.org/doi/10.1073/pnas.2319112121&#34;&gt;Yin et al.&lt;/a&gt;, which suggests that LLMs are more effective than humans at making people heard, but people aren’t comfortable sharing their troubles with LLMS due to lack of authenticity. We hope our study will help people better respond to their loved ones’ troubles, and that there will be increased access to effective to empathic communications coaching online.  We are currently collaborating with &lt;a href=&#34;https://communication.northwestern.edu/faculty/bruce-lambert.html&#34;&gt;Dr. Bruce Lambert&lt;/a&gt;, &lt;a href=&#34;https://cs.stanford.edu/~diyiy/&#34;&gt;Dr. Diyi Yang&lt;/a&gt;, and &lt;a href = &#34;https://cas.la.psu.edu/people/erina-farrell/&#34;&gt;Dr. Erina Farrell&lt;/a&gt; to develop a reliable framework for evaluating the quality of empathic communication, and to design digital and in-person experiments to measure the effectiveness of different forms of feedback on empathy over time. &#xA;        &lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
