@@ -1,4 +1,13 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+---
+title: "Home"
+date: 2025-06-10
+type: page
+layout: single
+draft: false
+---
+
+<link rel="stylesheet" href="/css/extended/custom.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 <div class="container">
@@ -11,7 +20,7 @@
         <!-- Social Icons -->
         <div class="social-icons">
             <!-- Email Icon -->
-            <a href="mailto:nalinpoungpeth2026@u.northwestern.edu" target="_blank">
+            <a href="mailto:faipoungpeth@gmail.com" target="_blank">
                 <i class="fa-solid fa-envelope"></i>
             </a>
             <!-- LinkedIn Icon -->
@@ -37,10 +46,10 @@
         </p>
         <h1>Achievements & Updates</h1>
         <ul>
-            <li>Launched BWF Badminton World Rankings Analysis Website</li>
-            <li>Presented Investigating Individual Differences in Block Assembly Strategies at MPA 2024</li>
-            <li>Cognitive Science SURF Grant Recipient</li>
-            <li>Fletcher Undergraduate Research Grant Nominee</li>
+            <li>Received the Robert J. Glushko Prize for Undergraduate Excellence in Cognitive Science</li>
+            <li>Presented Evaluating Empathic Communication with Experts, LLMs, and Crowds at Northwestern University's Cognitive Science Festival 2025</li>
+            <li>Presented LLM Powered Role-Playing Games for Boosting Empathic Communication at the Chicago Area Undergraduate Research Symposium 2025</li>
+            <li>Accepted to the Design, Use, Build, (DUB) REU Program 2025 at the University of Washington</li>
         </ul>
         <p>
             <a href="/achievements/">Read more</a>
