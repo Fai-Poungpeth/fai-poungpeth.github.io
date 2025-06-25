@@ -1,3 +1,10 @@
+---
+title: "Research Experiences"
+date: 2025-06-10
+type: page
+layout: single
+draft: false
+---
 <h1>Research Experiences</h1>
 <div class = "main-content">
     <div class = "research-content">
