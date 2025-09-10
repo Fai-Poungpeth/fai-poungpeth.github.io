@@ -1,6 +1,6 @@
 baseURL = "https://fai-poungpeth.github.io/"
 languageCode = 'en-us'
-title = 'Nalin (Fai) Poungpeth'
+title = 'Nalin Poungpeth'
 theme = "PaperMod"
 
 [params]
@@ -22,8 +22,8 @@ url = "/research/"
 weight = 2
 
 [[menu.main]]
-name = "Achievements"
-url = "/achievements/"
+name = "News"
+url = "/news/"
 weight = 3
 
 [[menu.main]]
