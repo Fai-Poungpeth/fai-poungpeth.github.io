@@ -68,6 +68,10 @@ draft: false
         <td>April 8 2025</td>
         <td>Presented Evaluating <a href="https://docs.google.com/presentation/d/e/2PACX-1vQUGZsw6oMkyHiHsBZXlK9XTlNJmC93Hyj7y5wQxsSxALRfEtdmhQ0qfJCrhvwye-WEwfFKn-oYS0ax/pub?start=false&loop=false&delayms=3000&slide=id.g3591ce0d38f_0_0">Empathic Communication with Experts, LLMs, and Crowds</a> at the <a href="https://codex.northwestern.edu/">Computation and Data Exchange 2025</td>
         </tr>
+        </tr>
+        <td>January 5 2025</td>
+        <td>Featured in an <a href="https://undergradresearch.northwestern.edu/2025/01/09/fai-poungpeth/">article</a> about my research experience with the Spatial Thinking and Reasoning Lab through the Summer Undergraduate Research Grant</td>
+        </tr>
         <tr>
         <td>June 10 2024</td>
         <td>Launched the <a href="https://k4x6kv-fai-poungpeth.shinyapps.io/final-project/">Badminton World Rankings Analysis</a> Website</td>
