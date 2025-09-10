@@ -1,5 +1,5 @@
 ---
-title: "Achievements & Updates"
+title: "News"
 date: 2025-06-10
 type: page
 layout: single
