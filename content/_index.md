@@ -48,6 +48,14 @@ draft: false
     <table>
     <tbody>
         <tr>
+        <td>December 17 2025</td>
+        <td>Received Honorable Mention for the <a href="https://cra.org/crae/awards/cra-outstanding-undergraduate-researchers/">2025-2026 CRA Outstanding Undergraduate Research Awards</a></td>
+        </tr>
+        <tr>
+        <td>October 3 2025</td>
+        <td>Presented <a href="https://drive.google.com/file/d/17ZxjcsCZCCCjNvpsxpsI1TXxqXQ99LPk/view">Emergent Persuasive Techniques in LLMs</a> at the UW x Amazon Responsible AI Systems and Experiences Exposition 2025</td>
+        </tr>
+        <tr>
         <td>June 16 2025</td>
         <td>Began working with <a href="https://faculty.washington.edu/tmitra/">Professor Tanu Mitra</a> and <a href="https://nicholasclark.org/">Nicholas Clark</a> through the <a href="https://dub.uw.edu/reu.html">DUB REU Program</a></td>
         </tr>

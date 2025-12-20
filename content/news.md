@@ -9,6 +9,20 @@ draft: false
 <h1></h1>
 <div class="achievement-content">
     <h2 class="collapsible-header">
+        CRA Outstanding Undergraduate Researcher Awards Honorable Mention
+        <span class="collapse-icon">▼</span>
+    </h2>
+    <div class="collapsible-content">
+        <div class="achievement-text-and-image">
+            <div class="achievement-text-content">
+                <p class="date">December 17th, 2025</p>
+                <p>The <a href="https://cra.org/crae/awards/cra-outstanding-undergraduate-researchers/">Computing Research Association (CRA)</a> "recognizes undergraduate students in North American colleges and universities who show outstanding potential in an area of computing research". I was fortunate enough to be nominated for this award by <a href="https://mattgroh.com/">Professor Matt Groh</a> and Northwestern's Computer Science Department, and received Honorable Mention for my research over the past year.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="achievement-content">
+    <h2 class="collapsible-header">
         DUB REU Research Intern Experience
         <span class="collapse-icon">▼</span>
     </h2>
@@ -16,7 +30,7 @@ draft: false
         <div class="achievement-text-and-image">
             <div class="achievement-text-content">
                 <p class="date">June 16th, 2025</p>
-                <p>Large language models (LLMs) have recently developed strong persuasive capabilities that outperform humans in head-to-head comparisons. With users consulting LLMs about major life decisions in relationships, medical contexts, and when seeking professional advice, there is a need to understand its nuanced behaviors in these contexts. With that in mind, I am currently working with <a href="https://faculty.washington.edu/tmitra/">Professor Tanu Mitra</a> and <a href="https://nicholasclark.org/">Nicholas Clark</a> through the <a href="https://dub.uw.edu/reu.html">DUB REU Program</a> to research LLM persuasive techniques in multiturn naturalistic conversations, exploring differences in behaviors across models, user message types, and conversation topics.</p>
+                <p>Large language models (LLMs) have recently developed strong persuasive capabilities that outperform humans in head-to-head comparisons. With users consulting LLMs about major life decisions in relationships, medical contexts, and when seeking professional advice, there is a need to understand its nuanced behaviors in these contexts. With that in mind, I am currently working with <a href="https://faculty.washington.edu/tmitra/">Professor Tanu Mitra</a> and <a href="https://nicholasclark.org/">Nicholas Clark</a> through the <a href="https://dub.uw.edu/reu.html">DUB REU Program</a> to research LLM persuasive techniques in multiturn naturalistic conversations, exploring differences in behaviors across models, user message types, and conversation topics. I presented my findings at the UW x Amazon Responsible AI Systems and Experiences Exposition 2025</p>
             </div>
             <img src="/images/dub-reu-poster.png" alt="DUB REU Final Showcase" class="achievement-image"/>
         </div>
