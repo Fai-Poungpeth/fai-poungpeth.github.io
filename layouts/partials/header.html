@@ -1,7 +1,10 @@
 <header class="header">
     <nav class="nav">
-      <a href="/" class="{{ if eq .RelPermalink "/" }}active{{ end }}">Home</a>
-      <a href="/news/" class="{{ if eq .RelPermalink "/news/" }}active{{ end }}">News</a>
-      <a href="https://drive.google.com/file/d/1_RiKcOEiSowQy13nkcjwqFVvHloydY9W/view?usp=sharing" class="{{ if eq .RelPermalink "/cv/" }}active{{ end }}">CV</a>
+      <a href="/" class="{{ if eq .RelPermalink "/" }}active{{ end }}"><i class="fa-solid fa-house"></i> Home</a>
+      <!-- <a href="/#news">News</a> -->
+      <a href="/publications/" class="{{ if eq .RelPermalink "/publications/" }}active{{ end }}">Publications</a>
+      <a href="/projects/" class="{{ if eq .RelPermalink "/projects/" }}active{{ end }}">Projects</a>
+      <a href="/travel/" class="{{ if eq .RelPermalink "/travel/" }}active{{ end }}">Travel Log</a>
+      <a href="https://drive.google.com/file/d/1_RiKcOEiSowQy13nkcjwqFVvHloydY9W/view?usp=sharing" target="_blank">CV</a>
     </nav>
 </header>
