@@ -23,21 +23,36 @@
   }).addTo(map);
 
   // ── Custom pin icon (SVG teardrop) ────────────────────────────
-  function makeIcon(color) {
-    var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="26" height="36" viewBox="0 0 26 36">' +
+  function makeIcon(color, w) {
+    var h = Math.round(w * 36 / 26);
+    var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="' + w + '" height="' + h + '" viewBox="0 0 26 36">' +
       '<path d="M13 0C5.82 0 0 5.82 0 13c0 9.75 13 23 13 23S26 22.75 26 13C26 5.82 20.18 0 13 0z" fill="' + color + '" stroke="white" stroke-width="1.5"/>' +
       '<circle cx="13" cy="13" r="5" fill="white"/>' +
       '</svg>';
     return L.divIcon({
       className: 'travel-marker',
       html: svg,
-      iconSize: [26, 36],
-      iconAnchor: [13, 36],
-      popupAnchor: [0, -38]
+      iconSize: [w, h],
+      iconAnchor: [w / 2, h],
+      popupAnchor: [0, -(h + 2)]
     });
   }
 
-  var defaultIcon = makeIcon('#C05746');
+  function makeHouseIcon(size) {
+    return L.divIcon({
+      className: 'travel-marker',
+      html: '<i class="fas fa-house" style="font-size:' + size + 'px;color:#C05746;display:block;line-height:1;filter:drop-shadow(0 2px 3px rgba(0,0,0,0.35));"></i>',
+      iconSize: [size, size],
+      iconAnchor: [size / 2, size],
+      popupAnchor: [0, -(size + 6)]
+    });
+  }
+
+  var defaultIcon      = makeIcon('#C05746', 18);
+  var activeIcon       = makeIcon('#C05746', 32);
+  var defaultHouseIcon = makeHouseIcon(20);
+  var activeHouseIcon  = makeHouseIcon(34);
+  var activeMarker = null;
 
   // ── Places data ────────────────────────────────────────────────
   var places = [
@@ -47,10 +62,10 @@
       lng: -74.0060,
       description: 'December 2022',
       images: [
-        '/images/travel/nyc-1.png',
-        '/images/travel/nyc-2.png',
-        '/images/travel/nyc-3.png',
-        '/images/travel/nyc-4.png'
+        '/images/travel/nyc-1.jpg',
+        '/images/travel/nyc-2.jpg',
+        '/images/travel/nyc-3.jpg',
+        '/images/travel/nyc-4.jpg'
       ]
     },
     {
@@ -59,12 +74,12 @@
       lng: 98.9853,
       description: 'Home!!',
       images: [
-        '/images/travel/cnx-1.png',
-        '/images/travel/cnx-2.png',
-        '/images/travel/cnx-3.png',
-        '/images/travel/cnx-4.png',
-        '/images/travel/cnx-5.png',
-        '/images/travel/cnx-6.png'
+        '/images/travel/cnx-1.jpg',
+        '/images/travel/cnx-2.jpg',
+        '/images/travel/cnx-3.jpg',
+        '/images/travel/cnx-4.jpg',
+        '/images/travel/cnx-5.jpg',
+        '/images/travel/cnx-6.jpg'
       ]
     },
     {
@@ -73,13 +88,13 @@
       lng: -87.6872,
       description: 'September 2022 - June 2026',
       images: [
-        '/images/travel/evanston-1.png',
-        '/images/travel/evanston-2.png',
-        '/images/travel/evanston-3.png',
-        '/images/travel/evanston-4.png',
-        '/images/travel/evanston-5.png',
-        '/images/travel/evanston-6.png',
-        '/images/travel/evanston-7.png',
+        '/images/travel/evanston-1.jpg',
+        '/images/travel/evanston-2.jpg',
+        '/images/travel/evanston-3.jpg',
+        '/images/travel/evanston-4.jpg',
+        '/images/travel/evanston-5.jpg',
+        '/images/travel/evanston-6.jpg',
+        '/images/travel/evanston-7.jpg',
       ]
     },
     {
@@ -88,12 +103,12 @@
       lng: -81.7602,
       description: 'December 2023',
       images: [
-        '/images/travel/florida-1.png',
-        '/images/travel/florida-2.png',
-        '/images/travel/florida-3.png',
-        '/images/travel/florida-4.png',
-        '/images/travel/florida-5.png',
-        '/images/travel/florida-6.png',
+        '/images/travel/florida-1.jpg',
+        '/images/travel/florida-2.jpg',
+        '/images/travel/florida-3.jpg',
+        '/images/travel/florida-4.jpg',
+        '/images/travel/florida-5.jpg',
+        '/images/travel/florida-6.jpg',
       ]
     },
     {
@@ -102,10 +117,10 @@
       lng: 121.5654,
       description: 'June 2024',
       images: [
-        '/images/travel/taipei-1.png',
-        '/images/travel/taipei-2.png',
-        '/images/travel/taipei-3.png',
-        '/images/travel/taipei-4.png'
+        '/images/travel/taipei-1.jpg',
+        '/images/travel/taipei-2.jpg',
+        '/images/travel/taipei-3.jpg',
+        '/images/travel/taipei-4.jpg'
       ]
     },
     {
@@ -114,8 +129,8 @@
       lng: -105.5217,
       description: 'March 2025',
       images: [
-        '/images/travel/colorado-1.png',
-        '/images/travel/colorado-2.png'
+        '/images/travel/colorado-1.jpg',
+        '/images/travel/colorado-2.jpg'
       ]
     },
     {
@@ -124,10 +139,10 @@
       lng: -113.687819,
       description: 'May 2026',
       images: [
-        '/images/travel/glacier-1.png',
-        '/images/travel/glacier-2.png',
-        '/images/travel/glacier-3.png',
-        '/images/travel/glacier-4.png'
+        '/images/travel/glacier-1.jpg',
+        '/images/travel/glacier-2.jpg',
+        '/images/travel/glacier-3.jpg',
+        '/images/travel/glacier-4.jpg'
       ]
     },
     {
@@ -136,8 +151,8 @@
       lng: -86.1308948,
       description: 'November 2025',
       images: [
-        '/images/travel/mammoth-1.png',
-        '/images/travel/mammoth-2.png'
+        '/images/travel/mammoth-1.jpg',
+        '/images/travel/mammoth-2.jpg'
       ]
     },
     {
@@ -146,8 +161,8 @@
       lng: -83.5070,
       description: 'November 2025',
       images: [
-        '/images/travel/smoky-1.png',
-        '/images/travel/smoky-2.png'
+        '/images/travel/smoky-1.jpg',
+        '/images/travel/smoky-2.jpg'
       ]
     },
     {
@@ -156,9 +171,9 @@
       lng: -122.3328,
       description: 'June - August 2025',
       images: [
-        '/images/travel/seattle-1.png',
-        '/images/travel/seattle-2.png',
-        '/images/travel/seattle-3.png'
+        '/images/travel/seattle-1.jpg',
+        '/images/travel/seattle-2.jpg',
+        '/images/travel/seattle-3.jpg'
       ]
     },
     {
@@ -167,8 +182,8 @@
       lng: 103.8198,
       description: 'October 2020 - May 2022',
       images: [
-        '/images/travel/singapore-1.png',
-        '/images/travel/singapore-2.png'
+        '/images/travel/singapore-1.jpg',
+        '/images/travel/singapore-2.jpg'
       ]
     },
     {
@@ -177,9 +192,9 @@
       lng: 100.0136,
       description: 'May 2022',
       images: [
-        '/images/travel/samui-1.png',
-        '/images/travel/samui-2.png',
-        '/images/travel/samui-3.png'
+        '/images/travel/samui-1.jpg',
+        '/images/travel/samui-2.jpg',
+        '/images/travel/samui-3.jpg'
       ]
     }
   ];
@@ -191,13 +206,21 @@
   plane.innerHTML = '<i class="fas fa-plane"></i>';
   document.body.appendChild(plane);
 
-  var planeLL     = { lat: map.getCenter().lat, lng: map.getCenter().lng };
+  var cnxPlace = places.filter(function (p) { return p.name === 'Chiang Mai'; })[0];
+  var planeLL  = cnxPlace ? { lat: cnxPlace.lat, lng: cnxPlace.lng } : { lat: map.getCenter().lat, lng: map.getCenter().lng };
   var isAnimating = false;
 
-  // Place off-screen until first use
+  // Position plane at Chiang Mai once map has rendered
   plane.style.left      = '-300px';
   plane.style.top       = '-300px';
   plane.style.transform = 'translate(-50%,-50%) rotate(0deg)';
+  map.whenReady(function () {
+    requestAnimationFrame(function () {
+      var pos = screenPos(planeLL);
+      plane.style.left = pos.x + 'px';
+      plane.style.top  = pos.y + 'px';
+    });
+  });
 
   // Convert lat/lng to fixed viewport coordinates
   function screenPos(ll) {
@@ -321,16 +344,29 @@
   // ── Add markers — click triggers fly-then-popup ────────────────
   var markerRefs = {};
   places.forEach(function (place) {
-    var marker = L.marker([place.lat, place.lng], { icon: defaultIcon }).addTo(map);
+    var isHome     = place.name === 'Chiang Mai';
+    var iconDef    = isHome ? defaultHouseIcon : defaultIcon;
+    var iconActive = isHome ? activeHouseIcon  : activeIcon;
+
+    var marker = L.marker([place.lat, place.lng], { icon: iconDef }).addTo(map);
+    marker._iconDef    = iconDef;
+    marker._iconActive = iconActive;
     markerRefs[place.name] = marker;
 
     marker.on('click', function () {
       if (isAnimating) return;
       map.closePopup();
       flyTo({ lat: place.lat, lng: place.lng }, function () {
+        if (activeMarker) activeMarker.setIcon(activeMarker._iconDef);
+        marker.setIcon(marker._iconActive);
+        activeMarker = marker;
         openPlacePopup(place);
       });
     });
+  });
+
+  map.on('popupclose', function () {
+    if (activeMarker) { activeMarker.setIcon(activeMarker._iconDef); activeMarker = null; }
   });
 
   // ── Travel button — auto-tour through random pins ──────────────
@@ -362,11 +398,15 @@
         return;
       }
 
-      var place = pool[step++];
+      var place  = pool[step++];
+      var marker = markerRefs[place.name];
       flyTo({ lat: place.lat, lng: place.lng }, function () {
+        if (activeMarker) activeMarker.setIcon(activeMarker._iconDef);
+        if (marker) { marker.setIcon(marker._iconActive); activeMarker = marker; }
         openPlacePopup(place);
         setTimeout(function () {
           map.closePopup();
+          if (activeMarker) { activeMarker.setIcon(activeMarker._iconDef); activeMarker = null; }
           setTimeout(runStep, 400);
         }, SHOW_MS);
       });
