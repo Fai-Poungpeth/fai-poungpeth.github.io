@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Fai Poungpeth"
 date: 2025-06-10
 type: page
 layout: single
