@@ -200,20 +200,20 @@ h1, h2, h3 { color: var(--primary-color); font-weight: 700; }
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
+  gap: 4px;
+  flex-wrap: nowrap;
 }
 
 .social-links a {
-  width: 36px;
-  height: 36px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background: var(--bg-color);
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--accent-color);
-  font-size: 18px;
+  font-size: 15px;
   transition: var(--transition);
   text-decoration: none;
 }
