@@ -12,6 +12,14 @@ draft: false
 </div>
 <div class="project-grid">
 <div class="project-card">
+<div class="project-icon"><i class="fa-brands fa-reddit-alien"></i>
+</div>
+<h3>A Dive into r/nosurf</h3>
+<p>An analysis of 1,000 of r/nosurf's top posts and their 9,910 top comments, focusing on topics, sentiment, and concerns. Analyses use a combination of clustering algorithms, autoencoders, and sentiment analysis to understand why people are struggling to be productive, and how the community is handling these concerns.</p>
+<div class="project-tags"><span class="ptag">NLP</span><span class="ptag">ML</span><span class="ptag">Data Visualization</span></div>
+<a href="https://fai-poungpeth.github.io/rnosurf-analysis/index.html" target="_blank" class="project-link">Live Demo →</a>
+</div>
+<div class="project-card">
 <div class="project-icon"><i class="fa-solid fa-user-secret"></i></div>
 <h3>Written by Fai or AI?</h3>
 <p>A fine-tuned RoBERTa model to predict if text was written by me or by AI. The model had 93% accuracy, compared to the base accuracy of 40%.</p>
