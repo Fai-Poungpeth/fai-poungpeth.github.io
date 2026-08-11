@@ -17,7 +17,7 @@ draft: false
 <h3>A Dive into r/nosurf</h3>
 <p>An analysis of 1,000 of r/nosurf's top posts and their 9,910 top comments, focusing on topics, sentiment, and concerns. Analyses use a combination of clustering algorithms, autoencoders, and sentiment analysis to understand why people are struggling to be productive, and how the community is handling these concerns.</p>
 <div class="project-tags"><span class="ptag">NLP</span><span class="ptag">ML</span><span class="ptag">Data Visualization</span></div>
-<a href="https://fai-poungpeth.github.io/rnosurf-analysis/index.html" target="_blank" class="project-link">Live Demo →</a>
+<a href="https://fai-poungpeth.github.io/rnosurf-analysis/index.html" target="_blank" class="project-link">Visit Site →</a>
 </div>
 <div class="project-card">
 <div class="project-icon"><i class="fa-solid fa-user-secret"></i></div>
