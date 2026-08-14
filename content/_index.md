@@ -17,7 +17,7 @@ draft: false
 <a href="mailto:faipoungpeth@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
 <a href="https://www.linkedin.com/in/fai-poungpeth" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
 <a href="https://github.com/Fai-Poungpeth" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-<a href="https://scholar.google.com/citations?user=qGyKPSEAAAAJ&hl=en" target="_blank" title="CV"><i class="fa-brands fa-google-scholar"></i></a>
+<a href="https://scholar.google.com/citations?user=eoAUsaYAAAAJ&hl=en&authuser=3" target="_blank" title="CV"><i class="fa-brands fa-google-scholar"></i></a>
 <a href="https://calendar.app.google/pEVA1YY6zxzizjry6" target="_blank" title="Meeting"><i class="fa fa-calendar"></i></a>
 </div>
 <p class="profile-role">faipoungpeth [at] gmail [dot] com</p>
