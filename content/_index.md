@@ -24,9 +24,9 @@ draft: false
 </div>
 <div class="hero-content">
 <div class="hero-greeting">Hi, I'm Fai!</div>
-<p>I am an incoming Ph.D. student in Information Science at Cornell University, advised by <a href="https://sfussell.hci.cornell.edu/">Professor Sue Fussell</a>.</p> 
+<p>I am an Ph.D. student in Information Science at Cornell University, advised by <a href="https://sfussell.hci.cornell.edu/">Professor Sue Fussell</a> and <a href="https://www.adityavashistha.com/">Professor Aditya Vashistha</a>.</p> 
 
-<p>My research focuses on understanding how LLMs can be used to evaluate and enhance human-AI and human-human communication. I use methods in HCI to design digital experiments, NLP to analyze textual communication, and computational social science to simulate human-AI interactions.</p>
+<p>My research focuses on understanding how LLMs can be used to evaluate and enhance human-AI and human-human communication across cultures, particularly in contexts involving emotional well-being. I use methods in HCI to design digital experiments, NLP to analyze textual communication, and computational social science to simulate human-AI interactions.</p>
 
 <p>Previously, I worked at the <a href="https://human-ai-collaboration-lab.kellogg.northwestern.edu/">Human-AI Collaboration Lab</a> with <a href="https://mattgroh.com/">Professor Matt Groh</a> and <a href="https://aakritikumar.com/">Dr. Aakriti Kumar</a> to reserach how LLM role-playing games can help people improve empathic communication. I also worked with <a href="https://faculty.washington.edu/tmitra/">Professor Tanu Mitra</a> and <a href="https://nicholasclark.org/">Nicholas Clark</a> through the <a href="https://dub.uw.edu/reu.html">NSF DUB REU Program</a> to study what persuasive strategies LLMs adopt in multi-turn conversations.</p>
 </div>
